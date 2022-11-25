@@ -93,7 +93,7 @@ vendors:
 
 A new version of NexT will be released every month. Please read the [release notes][docs-release-url] before updating the theme. You can update NexT by the following command.
 
-Install the latest version throuth npm:
+Install the latest version through npm:
 
 ```sh
 $ cd hexo-site
@@ -159,6 +159,10 @@ Also, we welcome Issue or PR to our [official-plugins][official-plugins-url].
 </a>
 
 > Thanks CDNJS for providing public CDN service.
+
+## License
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnext-theme%2Fhexo-theme-next.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnext-theme%2Fhexo-theme-next?ref=badge_large)
 
 [docs-installation-url]: https://theme-next.js.org/docs/getting-started/installation.html
 [docs-configuration-url]: https://theme-next.js.org/docs/getting-started/configuration.html
