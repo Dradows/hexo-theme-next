@@ -12,8 +12,7 @@ document.addEventListener('page:loaded', () => {
     }
     window.MathJax = {
       tex: {
-        // 数组形式（非 '[+]' 加法语法）：MathJax 3.2.2 不支持 '[+]'，会导致 finder 崩溃
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        inlineMath: { '[+]': [['$', '$']] },
         tags      : CONFIG.mathjax.tags
       },
       options: {
